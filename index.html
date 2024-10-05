@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css">
     <title>Weather App</title>
   </head>
 
   <body>
+    <div class="container">
     <header>
       <form>
-        <input type="search" placeholder="Enter a city" required />
-        <input type="submit" value="search" />
+        <input class="search-form-input" type="search" placeholder="Enter a city" required />
+        <input class="search-form-button"type="submit" value="Search" />
       </form>
     </header>
     <main>
@@ -21,7 +23,7 @@
         <br />
         Humidity: 60%, Wind: 3.11km/h
     </p>
-    <div>🌤️12°C</div>
+    <div class = "weather-icon">🌤️12°C</div>
     </main>
 
     <footer>
@@ -36,5 +38,6 @@
       and hosted on
       <a href="https://weatherqq.netlify.app/" target="_blank">Netlify</a>
     </footer>
+    </div>
   </body>
 </html>

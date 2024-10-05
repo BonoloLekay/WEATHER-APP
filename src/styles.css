@@ -1,0 +1,38 @@
+body{
+   background-color: blanchedalmond;
+}
+.container{
+    background-color: #fff;
+    max-width: 600px;
+    border-radius: 20px;
+    display: block;
+    margin: 45px auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.search-form-input{
+    background-color: #f3f7fe;
+    border: none;
+    border-radius: 8px;
+    width: 75%;
+    padding: 20px 20px;
+    font-size: 15px;
+}
+.search-form-button{
+    color: #fff;
+    background-color: rgb(253,116,139);
+    border: 1px solid rgb(253,116,139);
+    border-radius: 8px;
+    width: 20%;
+    padding: 16px 20px;
+    font-size: 18px;
+}
+footer{
+    text-align: center;
+    color: rgb(180, 175, 175);
+    padding: 10px 10px;
+}
+a{
+    color: rgb(253, 116, 139);
+}
