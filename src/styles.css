@@ -29,7 +29,23 @@ body{
     padding: 16px 20px;
     font-size: 18px;
 }
-.temp{
+.temp-container{
+    display: flex;
+}
+.weather-icon{
+    font-size: 44px;
+    margin-top: 22px;
+}
+.weather-temp{
+    font-size: 88px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.weather-unit{
+    margin-top: 16px;
+    font-size: 28px;
+}
+strong{
     color: blueviolet;
     font-weight: bold;
 }
