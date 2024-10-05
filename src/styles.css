@@ -1,5 +1,5 @@
 body{
-   background-color: blanchedalmond;
+   background-color: rgb(243, 237, 228);
 }
 .container{
     background-color: #fff;
@@ -8,7 +8,8 @@ body{
     display: block;
     margin: 45px auto;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow:  0.5px 0.5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     
 }
 .search-form-input{
@@ -27,6 +28,15 @@ body{
     width: 20%;
     padding: 16px 20px;
     font-size: 18px;
+}
+.temp{
+    color: blueviolet;
+    font-weight: bold;
+}
+p{
+    color: rgb(161, 156, 156);
+    padding: 10px;
+    line-height: 20px;
 }
 footer{
     text-align: center;
