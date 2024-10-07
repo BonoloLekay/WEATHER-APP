@@ -35,8 +35,9 @@ body{
     
 }
 .weather-icon{
-    font-size: 44px;
-    margin-top: 22px;
+    font-size: 88px;
+    height: 88px;
+    margin-top: 18px;
 }
 .weather-temp{
     font-size: 88px;
