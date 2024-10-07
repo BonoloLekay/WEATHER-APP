@@ -51,8 +51,20 @@ body{
 .weather-data-container{
     display: flex;
 }
-strong{
-    color: blueviolet;
+.humidity{
+    color: rgb(111, 35, 182);
+    font-weight: bolder;
+}
+.wind-speed{
+    color: rgb(111, 35, 182);
+    font-weight: bolder;
+}
+.description{
+    color: rgb(197, 132, 186);
+    font-weight: bolder;
+}
+.time{
+    color: rgb(202, 133, 191);
     font-weight: bold;
 }
 p{
