@@ -3,7 +3,7 @@ body{
 }
 .container{
     background-color: #fff;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 20px;
     display: block;
     margin: 45px auto;
@@ -32,6 +32,7 @@ body{
 .temp-container{
     display: flex;
     justify-content: space-between;
+    
 }
 .weather-icon{
     font-size: 44px;
@@ -45,6 +46,9 @@ body{
 .weather-unit{
     margin-top: 16px;
     font-size: 28px;
+}
+.weather-data-container{
+    display: flex;
 }
 strong{
     color: blueviolet;
